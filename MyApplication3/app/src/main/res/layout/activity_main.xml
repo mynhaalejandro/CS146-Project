@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageView"
+        android:layout_width="317dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="156dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iloco" />
+
+    <ImageButton
+        android:id="@+id/imageView1"
+        android:layout_width="326dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="71dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/english" />
+
+
+
+
+
+
+</RelativeLayout>
